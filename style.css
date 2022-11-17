@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+header{
+    height: 10%;
+}
+main{
+    height: 80%;
+}
+footer{
+    height: 10%;
+}
+.top{
+    background-color: aqua;
+}
+#cloud{
+    display: flex;
+    float: right;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mountain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-text{
+    line-height: 50px;
+}
+.first-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ty-image{
+    border-radius: 100%;
+    margin-top: 350px;
+}
+.top-prof{
+    color: green;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .work-place{
+    margin-top: 30px;
+} */
+.Portfolio-images1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-gallery2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-top: 700px;
+}
+
+ 
+.Portfolio-images1 #image1:hover, .Portfolio-images1 #image2:hover, .Portfolio-images1 #image3:hover, .portfolio-gallery2 #image4:hover{
+    zoom: 110%;
+    cursor: pointer;
+}
+.portfolio-gallery2 #image5:hover, .portfolio-gallery2 #image6:hover{
+    zoom: 110%;
+    cursor: pointer;
+}
+
+#teacher{
+    float: right;
+}
+
+
+@media screen and (max-width:760px){
+    .first-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    .second-profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .Portfolio-images1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-gallery2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        margin-top: 900px;
+    }
+}
